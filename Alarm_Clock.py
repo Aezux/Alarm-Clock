@@ -12,7 +12,6 @@ buzzer_pin = 17
 GPIO.setup(buzzer_pin, GPIO.OUT)                    #buzzer
 GPIO.setup(18, GPIO.OUT)                            #LED
 
-
 def takeTime():
     lst = []
     m = 'am'
@@ -38,7 +37,6 @@ def waitTime(seconds):
     while(seconds > 0):
         m, s = divmod(seconds, 60)
         h, m = divmod(m, 60)
-        #print("Time until the alarm goes off: {:02d}:{:02d}:{:02d}".format(h,m,s))
         lcd.lcd_display_string("{:02d}:{:02d}:{:02d}".format(h,m,s),1)
         seconds -= 1
         time.sleep(1)
@@ -93,5 +91,3 @@ while True:
         os.system("date '+%I:%M %P' | flite")
         os.system('weather -q fips1703114000 | flite')
         break
-
-
