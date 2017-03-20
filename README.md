@@ -9,7 +9,7 @@ list goes here.
 2. **LCD software:**
 `type below in terminal`
 > wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/i2c_lib.py
-`type below in terminal`
+
 > wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/lcddriver.py
 3. **Flite text to speak software:**
 `type below in terminal`
