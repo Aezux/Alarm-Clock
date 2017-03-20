@@ -5,11 +5,15 @@ The goal of this project is create a functioning alarm clock. It is designed so 
 list goes here.
 
 # Software needed
-1. The Alarm_Clock.py file
-2. LCD software:
-  wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/i2c_lib.py
-	wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/lcddriver.py
-3. Flite text to speak software:
-  sudo apt-get install flite
-4. Weather checking software:
-  git clone http://www.yuggoth.org/git/weather.git
+1. The **Alarm_Clock.py** file
+2. **LCD software:**
+`type below in terminal`
+> wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/i2c_lib.py
+`type below in terminal`
+> wget http://reed.cs.depaul.edu/lperkovic/csc299/lab5/lcddriver.py
+3. **Flite text to speak software:**
+`type below in terminal`
+> sudo apt-get install flite
+4. **Weather checking software:**
+`type below in terminal`
+> git clone http://www.yuggoth.org/git/weather.git
