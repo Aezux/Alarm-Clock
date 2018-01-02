@@ -31,3 +31,6 @@ The goal of this project is create a functioning alarm clock. It is designed so 
 4. **Weather checking software:**
 `type below in terminal`
 > git clone http://www.yuggoth.org/git/weather.git
+
+# End Result
+![Preview](https://raw.githubusercontent.com/Aezux/Alarm-Clock/master/AlarmClock.jpg)
